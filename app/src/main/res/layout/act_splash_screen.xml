@@ -11,14 +11,13 @@
         android:orientation="vertical"
         android:padding="@dimen/dimen30"
         android:gravity="center"
-        android:background="@color/hitam"
+        android:background="@color/bg"
         >
         <ImageView
             android:contentDescription="@string/app_logo"
             android:layout_height= "wrap_content"
             android:layout_width="match_parent"
-            android:src="@drawable/preview"
-            android:layout_weight="1"
+            android:src="@drawable/splash"
             />
 
     </LinearLayout>

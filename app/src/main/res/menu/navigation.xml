@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        />
+    <item
+        android:id="@+id/nav_daily"
+        android:title="Daily Activity"
+        android:icon="@drawable/logo"
+        />
+    <item
+        android:id="@+id/nav_gallery"
+        android:title="Gallery"
+        android:icon="@drawable/logo"
+        />
+    <item
+        android:id="@+id/nav_mv"
+        android:title="Music and Video"
+        android:icon="@drawable/logo"
+        />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/logo"
+        />
+</menu>
