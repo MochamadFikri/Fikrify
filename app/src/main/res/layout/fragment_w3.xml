@@ -1,40 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment_home"
-    >
-
+    tools:context=".Fragment_w3">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center_horizontal"
+        android:gravity="center_vertical"
         android:padding="@dimen/dimen60"
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ari abdi saha ?"
-            android:textSize="25sp"
+            android:text="Pokoknya langsung cek aja deh ya"
+            android:textSize="35sp"
             android:fontFamily="@font/pdbold"
             android:textColor="@color/colorPrimary"
             tools:ignore="RtlCompat" />
-        <ImageView
-            android:layout_width="@dimen/dimen180"
-            android:layout_height="@dimen/dimen180"
-            android:src="@drawable/saya"
-            android:layout_margin="@dimen/dimen50"
-            />
-
-        <TextView
+        <Button
+            android:id="@+id/btn_lanjut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ari abdi saha ?"
-            android:textSize="25sp"
-            android:fontFamily="@font/pdbold"
-            android:textColor="@color/colorPrimary"
-            tools:ignore="RtlCompat" />
-
+            android:text="Lanjut Bro"
+            android:layout_marginTop="@dimen/dimen20"
+            />
     </LinearLayout>
 </FrameLayout>

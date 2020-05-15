@@ -18,7 +18,14 @@
             android:layout_height= "wrap_content"
             android:layout_width="match_parent"
             android:src="@drawable/splash"
+            android:layout_weight="1"
             />
 
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:layout_marginBottom="@dimen/dimen100"
+                />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

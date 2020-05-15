@@ -2,13 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment_profile"
+    tools:context=".Fragment_music"
+    android:background="@color/bg"
     >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="Profile Fragment"
-        android:fontFamily="@font/pdbold"
+        android:text="Music and Video Fragment"
         />
 </FrameLayout>

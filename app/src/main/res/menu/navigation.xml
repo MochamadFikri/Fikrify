@@ -7,21 +7,21 @@
     <item
         android:id="@+id/nav_daily"
         android:title="Daily Activity"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/ic_access_time_black_24dp"
         />
     <item
         android:id="@+id/nav_gallery"
         android:title="Gallery"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/ic_photo_library_black_24dp"
         />
     <item
-        android:id="@+id/nav_mv"
+        android:id="@+id/nav_music"
         android:title="Music and Video"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/ic_music_video_black_24dp"
         />
     <item
         android:id="@+id/nav_profile"
         android:title="Profile"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/ic_account_circle_black_24dp"
         />
 </menu>

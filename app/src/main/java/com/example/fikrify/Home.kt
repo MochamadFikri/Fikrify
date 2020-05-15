@@ -1,5 +1,6 @@
 package com.example.fikrify
 
+import android.graphics.Typeface
 import android.os.Bundle
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +16,21 @@ class Home : AppCompatActivity() {
         when (item.itemId){
             R.id.nav_home -> {
                 val fragment = Fragment_home.newInstance()
+                addFragment(fragment)
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.nav_daily -> {
+                val fragment = Fragment_daily.newInstance()
+                addFragment(fragment)
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.nav_gallery -> {
+                val fragment = Fragment_gallery.newInstance()
+                addFragment(fragment)
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.nav_music -> {
+                val fragment = Fragment_music.newInstance()
                 addFragment(fragment)
                 return@OnNavigationItemSelectedListener true
             }
@@ -38,6 +54,8 @@ class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.act_home)
+
+
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         val fragment = Fragment_home.newInstance()
         addFragment(fragment)

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    >
+        <ImageView
+            android:layout_marginLeft="@dimen/dimen15"
+            android:layout_marginRight="@dimen/dimen15"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_nama"
+                android:layout_gravity="left"
+                android:text="Nama"
+                android:fontFamily="@font/pdbold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_kota"
+                android:layout_gravity="left"
+                android:text="Kota"
+                android:fontFamily="@font/srreg"
+                />
+        </LinearLayout>
+</LinearLayout>

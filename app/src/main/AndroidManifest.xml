@@ -18,7 +18,12 @@
         </activity>
         <activity android:name=".Home"></activity>
         <activity android:name=".Fragment_home"></activity>
+        <activity android:name=".Fragment_daily"></activity>
+        <activity android:name=".Fragment_gallery"></activity>
+        <activity android:name=".Fragment_music"></activity>
         <activity android:name=".Fragment_profile"></activity>
+        <activity android:name=".Walkthrough"></activity>
+        <activity android:name=".PagerAdapter"></activity>
     </application>
 
 </manifest>

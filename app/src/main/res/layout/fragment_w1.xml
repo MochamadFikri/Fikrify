@@ -1,40 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment_home"
-    >
+    android:background="@color/bg"
+    tools:context=".Fragment_w1">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center_horizontal"
+        android:gravity="center_vertical"
         android:padding="@dimen/dimen60"
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ari abdi saha ?"
-            android:textSize="25sp"
+            android:text="Halo kawan ! \nSelamat datang di \nFikrify "
+            android:textSize="35sp"
             android:fontFamily="@font/pdbold"
             android:textColor="@color/colorPrimary"
             tools:ignore="RtlCompat" />
-        <ImageView
-            android:layout_width="@dimen/dimen180"
-            android:layout_height="@dimen/dimen180"
-            android:src="@drawable/saya"
-            android:layout_margin="@dimen/dimen50"
-            />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ari abdi saha ?"
-            android:textSize="25sp"
-            android:fontFamily="@font/pdbold"
+            android:text="Geser untuk lanjut >>"
+            android:textSize="15sp"
+            android:layout_marginTop="@dimen/dimen50"
+            android:fontFamily="@font/srlight"
             android:textColor="@color/colorPrimary"
-            tools:ignore="RtlCompat" />
-
+            />
     </LinearLayout>
 </FrameLayout>

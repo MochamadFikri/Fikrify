@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_daily"
+    android:background="@color/bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dimen40"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Activity"
+            android:textSize="20sp"
+            android:fontFamily="@font/pdbold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="@dimen/dimen20"
+            tools:ignore="RtlCompat" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_height="@dimen/dimen200"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:id="@+id/recycle"
+            android:layout_marginBottom="@dimen/dimen20"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friend List"
+            android:textSize="20sp"
+            android:fontFamily="@font/pdbold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="@dimen/dimen5"
+            tools:ignore="RtlCompat" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/recycle2"
+            android:layout_marginBottom="@dimen/dimen20"
+            android:paddingTop="@dimen/dimen15"
+            android:paddingBottom="@dimen/dimen15"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</FrameLayout>
