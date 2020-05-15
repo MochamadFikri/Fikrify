@@ -1,14 +1,110 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
-    tools:context=".Fragment_music"
-    android:background="@color/bg"
-    >
-    <TextView
+    tools:context=".Fragment_music">
+    <LinearLayout
+        android:background="@color/bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Music and Video Fragment"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:contentDescription="@string/app_logo"
+            android:layout_width="@dimen/dimen50"
+            android:layout_height="@dimen/dimen50"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen20"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimen5"
+            android:layout_marginBottom="@dimen/dimen20"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:layout_marginRight="@dimen/dimen10"
+                android:layout_marginEnd="@dimen/dimen10"
+                android:textSize="25sp"
+                android:fontFamily="@font/pdbold"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/music"
+                android:textSize="25sp"
+                android:fontFamily="@font/pdreg"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen5"
+        android:layout_marginBottom="@dimen/dimen5"
+        android:layout_gravity="center"
+        >
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            app:videoId="kTP246fnKAI"
+            android:layout_margin="@dimen/dimen10"
+            />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            app:videoId="J6qIzKxmW8Y"
+            android:layout_margin="@dimen/dimen10"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen5"
+        android:layout_marginBottom="@dimen/dimen5"
+        android:layout_gravity="center"
+        >
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            app:videoId="CZI2bX-E0WY"
+            android:layout_margin="@dimen/dimen10"
+            />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            app:videoId="Vol9dZ-t93s"
+            android:layout_margin="@dimen/dimen10"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen5"
+        android:layout_marginBottom="@dimen/dimen5"
+        android:layout_gravity="center"
+        >
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            app:videoId="gfiqW1WaGbw"
+            android:layout_margin="@dimen/dimen10"
         />
+    </LinearLayout>
+    </LinearLayout>
 </FrameLayout>

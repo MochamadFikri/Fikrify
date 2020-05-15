@@ -9,6 +9,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_vertical"
+        android:background="@color/bg"
         android:padding="@dimen/dimen60"
         >
         <TextView
@@ -23,7 +24,12 @@
             android:id="@+id/btn_lanjut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen20"
+            android:paddingRight="@dimen/dimen20"
+            android:fontFamily="@font/srlight"
+            android:textColor="#FFFFFF"
             android:text="Lanjut Bro"
+            android:background="@drawable/tombol"
             android:layout_marginTop="@dimen/dimen20"
             />
     </LinearLayout>

@@ -13,34 +13,38 @@ import kotlinx.android.synthetic.main.fragment_daily.*
 import kotlinx.android.synthetic.main.fragment_gallery.*
 
 
+// NIM   : 10117198
+// Nama  : Mochamad Fikri Fadila AKbar
+// Kelas : IF-5
+
+// Tanggal Pengerjaan
+// 10 Mei 2020 : Pembuatan Bottom Navigation, Fragment Home dan Fragment Profile
+// 12 - 14 Mei 2020 : Penambahan Recyclerview di Fragment Daily dan Fragment Gallery
+// 15 - 16 Mei 2020 : Penambahan Konten Fragment Music dan Fragment Profile
+
 class Fragment_gallery : Fragment() {
 
     private val gambar_saya = listOf(
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya),
-        Gambar(R.drawable.saya)
+        Gambar(R.drawable.g1),
+        Gambar(R.drawable.g2),
+        Gambar(R.drawable.g3),
+        Gambar(R.drawable.g4),
+        Gambar(R.drawable.g5),
+        Gambar(R.drawable.g1),
+        Gambar(R.drawable.g2),
+        Gambar(R.drawable.g3),
+        Gambar(R.drawable.g4),
+        Gambar(R.drawable.g5),
+        Gambar(R.drawable.g1),
+        Gambar(R.drawable.g2),
+        Gambar(R.drawable.g3),
+        Gambar(R.drawable.g4),
+        Gambar(R.drawable.g5),
+        Gambar(R.drawable.g1),
+        Gambar(R.drawable.g2),
+        Gambar(R.drawable.g3),
+        Gambar(R.drawable.g4),
+        Gambar(R.drawable.g5)
     )
 
 

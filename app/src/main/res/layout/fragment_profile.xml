@@ -1,14 +1,198 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
-    tools:context=".Fragment_profile"
-    >
-    <TextView
+    tools:context=".Fragment_profile">
+    <LinearLayout
+        android:background="@color/bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Profile Fragment"
-        android:fontFamily="@font/pdbold"
-        />
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:contentDescription="@string/app_logo"
+            android:layout_width="@dimen/dimen50"
+            android:layout_height="@dimen/dimen50"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen10"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimen5"
+            android:layout_marginBottom="@dimen/dimen20"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:layout_marginRight="@dimen/dimen10"
+                android:layout_marginEnd="@dimen/dimen10"
+                android:textSize="25sp"
+                android:fontFamily="@font/pdbold"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile"
+                android:textSize="25sp"
+                android:fontFamily="@font/pdreg"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <ImageView
+            android:contentDescription="@string/saya"
+            android:layout_width="@dimen/dimen100"
+            android:layout_height="@dimen/dimen100"
+            android:src="@drawable/saya"
+            android:layout_margin="@dimen/dimen10"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_marginRight="@dimen/dimen10"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mochamad Fikri Fadila A"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/pdreg"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="@dimen/dimen20"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_marginRight="@dimen/dimen10"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:fontFamily="@font/pdbold"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="@dimen/dimen10"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_marginRight="@dimen/dimen10"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HP : 082316318495"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:fontFamily="@font/pdreg"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="@dimen/dimen20"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_marginRight="@dimen/dimen10"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : mochamadfikri82@gmail.com"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:fontFamily="@font/pdreg"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="@dimen/dimen20"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_marginRight="@dimen/dimen10"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social Media"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:fontFamily="@font/pdbold"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="RtlCompat" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+        <Button
+            android:id="@+id/btn_fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen20"
+            android:paddingRight="@dimen/dimen20"
+            android:fontFamily="@font/srlight"
+            android:textColor="#FFFFFF"
+            android:layout_margin="@dimen/dimen5"
+            android:text="Facebook"
+            android:background="@drawable/tombol"
+            android:layout_marginTop="@dimen/dimen10"
+            />
+        <Button
+            android:id="@+id/btn_ig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen20"
+            android:paddingRight="@dimen/dimen20"
+            android:fontFamily="@font/srlight"
+            android:layout_margin="@dimen/dimen5"
+            android:textColor="#FFFFFF"
+            android:text="Instagram"
+            android:background="@drawable/tombol"
+            android:layout_marginTop="@dimen/dimen10"
+            />
+        </LinearLayout>
+        <TextView
+            android:layout_marginRight="@dimen/dimen10"
+            android:layout_marginLeft="@dimen/dimen10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:fontFamily="@font/pdbold"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="RtlCompat"
+            />
+            <Button
+                android:id="@+id/btn_find"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dimen20"
+                android:paddingRight="@dimen/dimen20"
+                android:fontFamily="@font/srlight"
+                android:textColor="#FFFFFF"
+                android:layout_margin="@dimen/dimen5"
+                android:text="Find Me"
+                android:layout_gravity="center"
+                android:background="@drawable/tombol"
+                android:layout_marginTop="@dimen/dimen10"
+                />
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen20"
+            android:paddingRight="@dimen/dimen20"
+            android:fontFamily="@font/srlight"
+            android:textColor="#FFFFFF"
+            android:layout_margin="@dimen/dimen5"
+            android:text="About"
+            android:layout_gravity="center"
+            android:background="@drawable/tombol"
+            android:layout_marginTop="@dimen/dimen10"
+            />
+    </LinearLayout>
 </FrameLayout>

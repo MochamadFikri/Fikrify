@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.fikrify"
-        minSdkVersion 16
+        minSdkVersion 17
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -43,6 +43,7 @@ dependencies {
     // Circle Indicator
     implementation 'me.relex:circleindicator:2.1.4'
 
-    // Picasso
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    // Youtube Player
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.3'
+
 }

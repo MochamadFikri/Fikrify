@@ -1,7 +1,24 @@
 <resources>
     <string name="app_name">Fikrify</string>
     <string name="app_logo">Fikrify Logo</string>
+    <string name="saya">Foto Saya</string>
+    <string name="interest">Interest</string>
+
+    <string name="hobby">Hobby : \nMakan, Tidur, Belajar, Main Game, Membaca</string>
+    <string name="cita">Cita-cita : \nProgrammer, Rektor, Petani 4.0, Detektif</string>
+    <string name="home">Home</string>
+    <string name="daily">Daily</string>
+    <string name="gallery">Gallery</string>
+    <string name="music">Music</string>
+    <string name="profile">Profile</string>
+    <string name="daip">Daily Activity</string>
+    <string name="fl">Friend List</string>
+    <string name="player">Youtube Player</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="about">Fikri adalah seorang petualang, dengan sedikit pengalaman di bidang Pemrograman dan Desain ia mencoba menaklukan UNIKOM.</string>
+    <string name="about2">Saat ini Fikri bergabung dengan organisasi LDK UMMI UNIKOM dan organisasi bawah tanah Ormas Mahasiswa Teladan.</string>
 </resources>
